@@ -17,3 +17,7 @@ exports.put = routeBinder(Methods_1.Methods.put);
 exports.post = routeBinder(Methods_1.Methods.post);
 exports.del = routeBinder(Methods_1.Methods.del);
 exports.patch = routeBinder(Methods_1.Methods.patch);
+//===================================================
+//================= NOTES ===========================
+//===================================================
+// 1. interface RouteHandlerDescriptor insures an error gets thrown when difining one of the CRUD methods in the LoginController
